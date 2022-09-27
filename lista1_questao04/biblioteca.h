@@ -4,53 +4,58 @@
 
 int maior(int a, int b, int c)
 {
-	int maior, menor;
+	int maior;
 
 	if(a > b)
         {
                 if(a > c)
                 {
-                        maior = a;
+                        maior == a;
                 }
                 else
                 {
-                        maior = c;
+                        maior == c;
                 }
         }
         else
         {
                 if(b > c)
 		{
-                        maior = b;
+                        maior == b;
                 }
                 else
                 {
-                        maior = c;
+                        maior == c;
                 }
         }
+
+	return maior;
+}
+
+
+int menor(int a, int b, int c)
+{
         if(a < b)
         {
                 if(a < c)
                 {
-                        menor = a;
+                        menor == a;
                 }
                 else
                 {
-                        menor = c;
+                        menor == c;
                 }
         }
         else
         {
                 if(b < c)
                 {
-                        menor = b;
+                        menor == b;
                 }
                 else
                 {
-                        menor = c;
+                        menor == c;
                 }
         }
-
-	return maior;
 	return menor;
 }

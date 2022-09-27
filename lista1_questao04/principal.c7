@@ -21,8 +21,7 @@ int main(int argc, char *argv[])
 	m = maior(a,b,c);
 	n = menor(a,b,c);
 
-	printf("O maior número é %d\n", m);
-	printf("O menor número é %d\n", n);
+	printf("O maior número é %d e o menor número é %d.\n", m, n);
 
 	return 0;
 }
